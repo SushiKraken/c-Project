@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Gamez2.exe" version="1.0.0.0" publicKeyToken="5581fd03b8cbd819" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Gamez2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Gamez2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gamez2.exe" size="22440">
+      <assemblyIdentity name="Gamez2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nqSBAsDf51epA+t1+vazxO3iKHDxyPayk/MRPHMQ1fk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Gamez2.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Lenovo\Olek" issuerKeyHash="74f5e9a20bd2076ef80474a94440a6c6f8623646" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>U/8nNAgefxtkcdkpUzYKU2S3SyWP3cpyyXMPKGIyHbo=</DigestValue></Reference></SignedInfo><SignatureValue>IpMjQlkGtACG+Z7+4gPzZDfUrlsyJ58Ws8RLl3CJ1II0dcK5pNmYctbfkWUMKPcDMJUbYzBd6xTO7VPpxwj5JqK3dUZOnb/xUiV0Q8TGQ6Z6bZzSTxbQ7VCvLMts6EeE49ngTgwvLdaFMyyoO1CNbE1DAkPtxRKeIGggJWfC/uc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uATrBz54QpIZ0RrbB+mL7ELsYjhLgfEjiH2aUEw5Kf/27R9KOkdxy/3VpidkhxEukjdfkGMJXMYwM6opryf83UD7wE0bV7YBWDgLPtYgaGmENDJTskqEFZIBM2K01QXo1EUr7jxFgIIR9pD8IhJ2ck1P/Ky+sqapQubE8jBFjAE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ba1d3262280f73c972cadd8f254bb764530a365329d971641b7f1e083427ff53" Description="" Url=""><as:assemblyIdentity name="Gamez2.exe" version="1.0.0.0" publicKeyToken="5581fd03b8cbd819" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Lenovo\Olek</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>B26nqndW1mBS0CZ5sSoqDPY3lTwV/Rj4sdHg6pI5s24=</DigestValue></Reference></SignedInfo><SignatureValue>VQ/E8ETJohXnlAH0Gw+JlFCWWAEJzGPVlyF7btLKKRuB2KGKteBr6NCpmDHvY0e7YD0GHeoJEjw396F7PuJQHOGZ1VQUnlLNuvuyUHE2ofR+S6AC9duUtK7pjJUpG9NYADW5JXbtlKHIxnTUPpDi52LlQNlZ5UtE9uUibAuSjLM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uATrBz54QpIZ0RrbB+mL7ELsYjhLgfEjiH2aUEw5Kf/27R9KOkdxy/3VpidkhxEukjdfkGMJXMYwM6opryf83UD7wE0bV7YBWDgLPtYgaGmENDJTskqEFZIBM2K01QXo1EUr7jxFgIIR9pD8IhJ2ck1P/Ky+sqapQubE8jBFjAE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQSONS9GJIs6VJTUD12reylzANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYATABlAG4AbwB2AG8AXABPAGwAZQBrMB4XDTE2MDYxMjE5NDIzMFoXDTE3MDYxMzAxNDIzMFowITEfMB0GA1UEAx4WAEwAZQBuAG8AdgBvAFwATwBsAGUAazCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAuATrBz54QpIZ0RrbB+mL7ELsYjhLgfEjiH2aUEw5Kf/27R9KOkdxy/3VpidkhxEukjdfkGMJXMYwM6opryf83UD7wE0bV7YBWDgLPtYgaGmENDJTskqEFZIBM2K01QXo1EUr7jxFgIIR9pD8IhJ2ck1P/Ky+sqapQubE8jBFjAECAwEAATANBgkqhkiG9w0BAQsFAAOBgQCbpIVILyJiIsrxNjUGwfA4EG8sSPwDl6tOifehRVRaOJYAKi6iQ2bAp9IpiFgpwilk2o2PLDGxxvZ7pvYjiJ/nmVK7kikd9hlX1kqFUcA0BGdlRjI9Q3a3UUGbMn2MlvZeMCNadMVivTPQMYSfKjslr38e+VArMEXpTiqxZ1lQaw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

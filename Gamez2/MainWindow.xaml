@@ -1,0 +1,72 @@
+﻿<Window x:Class="Gamez2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="600" Width="800"
+        xmlns:local="clr-namespace:Gamez2"
+
+        >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="480" Name="Main_gridR"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="640" Name="Main_gridC"/>
+            <ColumnDefinition Width="60*"/>
+        </Grid.ColumnDefinitions>
+
+        <Rectangle 
+            Width="640"
+            Height="480"
+            Grid.Row="1"
+            Grid.Column="1" 
+            
+            Name="Canvas_Collision"
+            >
+            <Rectangle.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="0" Angle="0"></RotateTransform>
+            </Rectangle.RenderTransform>
+
+            <Rectangle.Fill>
+                <SolidColorBrush>
+                    <SolidColorBrush.Color>
+                        <Color A="80" R="82" G="39" B="5" />
+                    </SolidColorBrush.Color>
+                </SolidColorBrush>
+            </Rectangle.Fill>
+
+        </Rectangle>
+
+        <Canvas 
+        Name="Main_Area"
+        Height="480"
+        Width="640"
+        Grid.Row="1"
+        Grid.Column="1" 
+        
+           
+        >
+            <Canvas.Background>
+                <SolidColorBrush>
+                    <SolidColorBrush.Color>
+
+                        <Color
+                            A="80"
+                            R="82"
+                            G="39"
+                            B="5"
+                        />
+                    </SolidColorBrush.Color>
+                </SolidColorBrush>
+            </Canvas.Background>
+
+
+        </Canvas>
+
+    </Grid>
+
+
+
+</Window>
